@@ -1,0 +1,112 @@
+/*通用部分*/
+*{
+	margin:0;
+	padding:0;
+}
+table.whole{
+	width: 100%;
+	font-family: "微软雅黑";
+	margin:0 auto;
+}
+/*顶部*/
+thead{
+	background-color: #169bd5;
+}
+thead >tr > th{
+	width: 100%;
+	height: 60px;
+}
+table > thead >tr > th img{
+	float: left;
+	left:0;
+	top:0;
+	line-height: 60px;
+}
+/*主体部分*/
+tbody{
+	width: 100%;
+	margin:0 auto;
+	border:1px solid #cccccc;
+}
+/*左侧*/
+tbody >tr >td.left{
+	width: 12%;
+	margin:0;
+	padding-top: 20px;
+	padding-left:10px;
+	vertical-align:top;
+}
+tbody >tr >td.left > div p{
+	font-size: 14px;
+	line-height: 14px;
+}
+tbody >tr >td.left > div{
+	padding-bottom: 40px;
+}
+tbody >tr >td.left >div > .samp{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*右侧*/
+tbody >tr >td.right{
+	width: 88%;
+}
+tbody >tr >td.right table{
+	width: 100%;
+	border:1px solid #cccccc;
+	border-spacing: 0;
+}
+tbody >tr >td.right td{
+	border: 1px solid #cccccc;
+	border-spacing: 0;
+	margin:0;
+}
+tbody >tr >td.right >table.title{
+	width: 100%;
+	height: 50px;
+}
+tbody >tr >td.right .title tr td{
+	width: 100%;
+	height: 50px;
+	font-size: 15px;
+}
+tbody >tr >.right .info{
+	width: 100%;
+	height: 50px;
+}
+tbody >tr >td.right .info tr td form{
+	display: block;
+}
+tbody >tr >td.right .info tr td{
+	width: 100%;
+	height: 50px;
+	font-size: 15px;
+	}
+tbody >tr >td.right .order{
+	width: 100%;
+	text-align: center;
+}
+tbody >tr >td.right .order .top td{
+	height: 50px;
+}
+tbody >tr >td.right .order .bottom td{
+	height: 54px;
+}
+tbody >tr >td.right  > .order td img{
+	width: 50px;
+	height: 51px;
+}
+/*页脚*/
+tfoot{
+	width: 100%;
+	height: 60px;
+	background-color: #169bd5;
+	margin:0 auto;
+	text-align: center;
+}
+tfoot > tr > td{
+	font-size: 14px;
+	line-height: 60px;
+	width: 100%;
+}
